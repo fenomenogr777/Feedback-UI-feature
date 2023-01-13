@@ -19,11 +19,14 @@ selected = clickedFix.innerText;
 
 const sendReview = function () {
 container.innerHTML=`
+<div>
 <strong class="submit-heading">Thanks you!</strong>
 <br>
 <br>
 
-<p class="submit-main">Submited Feedback: ${selected}</p>
+<strong class="submit-main">Submited Feedback: <span>${selected}</span></strong>
+<p>We'll use your feedback to improve our customer support</p>
+</div>
 `
 
 };
